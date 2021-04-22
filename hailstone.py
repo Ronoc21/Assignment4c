@@ -12,5 +12,3 @@ def hailstone(num):
         else:
             answer += hailstone((num * 3) + 1)
     return answer
-
-result = hailstone(3)
