@@ -3,7 +3,7 @@
 # Description: defines function for hailstone sequence
 
 def hailstone(num):
-    answer = 2
+    answer = 1
     """Takes a number (num) and applies hailstone formula if number is greater than one. If number is one program is complete"""
     print(int(num))
     if num > 1:
