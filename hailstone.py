@@ -5,7 +5,7 @@
 def hailstone(num):
     answer = 1
     """Takes a number (num) and applies hailstone formula if number is greater than one. If number is one program is complete"""
-    print(int(num))
+    print((num))
     if num > 1:
         if num % 2 == 0:
             answer += hailstone(num / 2)
